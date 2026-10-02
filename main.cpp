@@ -60,7 +60,7 @@ static void callExercise2() {
     cout << "Worker 2 Salaries: "<<endl;
     worker2.printSalaries();
     cout <<"Worker 2 MIN Salary: " <<worker2.getMinSalary() << endl;
-    cout << "Worker 2 AVRG Salary: "<<worker2.getAverageSalary() << endl;
+    cout << "Worker 2 AVG Salary: "<<worker2.getAverageSalary() << endl;
 
 
 }
