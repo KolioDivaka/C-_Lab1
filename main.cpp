@@ -2,6 +2,7 @@
 
 #include "exercice1/Time.h"
 #include "Exercice2/Worker.h"
+#include "exercice3/Line.h"
 
 using namespace std;
 
@@ -12,9 +13,12 @@ static void callExercise2();
 
 int main() {
     // Exercise1
-    callExercise1();
+    // callExercise1();
     // Exercise2
-    callExercise2();
+    // callExercise2();
+    //Exercice3
+    Line line(12);
+
 
 
 }
@@ -61,6 +65,5 @@ static void callExercise2() {
     worker2.printSalaries();
     cout <<"Worker 2 MIN Salary: " <<worker2.getMinSalary() << endl;
     cout << "Worker 2 AVG Salary: "<<worker2.getAverageSalary() << endl;
-
 
 }

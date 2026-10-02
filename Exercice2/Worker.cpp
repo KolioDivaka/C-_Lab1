@@ -19,6 +19,9 @@ Worker::Worker(const char *id, const char *name, const char *position) {
 }
 Worker::~Worker() {
     delete[] salaries;
+    delete[] id;
+    delete[] name;
+    delete[] position;
 }
 
 const char *Worker::getId() const  {

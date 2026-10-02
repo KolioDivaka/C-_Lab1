@@ -8,4 +8,6 @@ add_executable(lab1 main.cpp
         exercice1/Time.h
         Exercice2/Worker.cpp
         Exercice2/Worker.h
+        exercice3/Line.cpp
+        exercice3/Line.h
 )
