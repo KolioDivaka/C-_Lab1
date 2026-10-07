@@ -13,10 +13,10 @@ static void callExercise2();
 
 int main() {
     // Exercise1
-    // callExercise1();
+    callExercise1();
     // Exercise2
-    // callExercise2();
-    //Exercice3
+    callExercise2();
+    //Exercise3
     Line line(12);
 
 
